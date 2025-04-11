@@ -1,0 +1,50 @@
+import java.util.Scanner;  // Import the Scanner class 
+class Main {
+
+  public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);  // فقط یک Scanner ایجاد می‌کنیم
+
+    System.out.println("نمره فیزیک");
+    int read1 = input.nextInt();  // خواندن ورودی به صورت عدد
+
+    System.out.println("نمره جغرافیا");
+    int read2 = input.nextInt();  // خواندن ورودی به صورت عدد
+
+    System.out.println("نمره تاریخ");
+    int read3 = input.nextInt();  // خواندن ورودی به صورت عدد
+
+    System.out.println("نمره اجتماعی");
+    int read4 = input.nextInt();  // خواندن ورودی به صورت عدد
+
+    System.out.println("نمره کارگاه شبکه");
+    int read5 = input.nextInt();  // خواندن ورودی به صورت عدد
+
+    System.out.println("نمره برنامه نویسی");
+    int read6 = input.nextInt();  // خواندن ورودی به صورت عدد
+
+    System.out.println("نمره پایگاه داده");
+    int read7 = input.nextInt();  // خواندن ورودی به صورت عدد
+
+    System.out.println("نمره ورزش");
+    int read8 = input.nextInt();  // خواندن ورودی به صورت عدد
+
+    System.out.println("نمره دفاعی");
+    int read9 = input.nextInt();  // خواندن ورودی به صورت عدد
+
+    System.out.println("نمره شیمی");
+    int read10 = input.nextInt();  // خواندن ورودی به صورت عدد
+
+    // برای نمایش نتایج نمرات
+    System.out.println("نمره فیزیک: " + read1);
+    System.out.println("نمره جغرافیا: " + read2);
+    System.out.println("نمره تاریخ: " + read3);
+    System.out.println("نمره اجتماعی: " + read4);
+    System.out.println("نمره کارگاه شبکه: " + read5);
+    System.out.println("نمره برنامه نویسی: " + read6);
+    System.out.println("نمره پایگاه داده: " + read7);
+    System.out.println("نمره ورزش: " + read8);
+    System.out.println("نمره دفاعی: " + read9);
+    System.out.println("نمره شیمی: " + read10);
+  } 
+}
